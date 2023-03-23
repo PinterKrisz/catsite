@@ -1,12 +1,12 @@
 *{
-    box-sizing:unset;
+    box-sizing:border-box;
     
 }
 
 html,
 body {
     height: 100%;
-    width: auto;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     
     
@@ -49,7 +49,6 @@ nav > ul > li > a {
 
 
 .main-container {
-    position:relative;
     padding-top: 3rem;
     padding-bottom: 3rem;
     width:100%;
@@ -58,9 +57,7 @@ nav > ul > li > a {
 }
 
 .main-container .main-russian {
-    height: 30%;
-    width: 35%;
-    padding-left: 32%;
+    padding-bottom: 2rem;
 }
 
 .main-article {
@@ -74,94 +71,50 @@ nav > ul > li > a {
     
 }
 
-#catcard-container {
-    display:grid;
-    row-gap: 2rem;
-    column-gap:1rem;
-    grid-template-columns: auto auto auto;
-    padding: 0 0.5rem 0 0.5rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-
-body > main > div > a:link, a:visited {
-    text-decoration: none;
-}
-
-body > main > div > a:hover {
-    text-decoration: #08519c;
-}
-
-
-
-body > main > div > a > div > h3 {
-    text-align: center;
-    font-size: 1.1rem ;
-}
-body > main > div > a > div > p {
-    text-align: center;
+.catcard-container{
+    width:100%;
+    
 }
 
 .card-breed {
-    height:auto;
+    height: 39rem;
     border: 0.1rem;
     border-style: solid;
     border-color: #4292c6;
     color: black;
 }
 
-.russianblue-img{
+
+.cat-img{
     height: 20rem;
     width:100%;
-    background-image: url(./card-images/russian-blue-background-img.jpg);
-    background-size: 150%;
+    background-size: 70%;
     background-position:center;
     background-repeat: no-repeat;
+}
+
+.russianblue-img{
+    background-image: url(./card-images/russian-blue-background-img.jpg);;
 }
 
 .bengal-img{
-    height:20rem;
-    width:100%;
     background-image: url(./card-images/bengal-background-img.jpg);
-    background-size: 100%;
-    background-position:center;
-    background-repeat: no-repeat;
 }
 
 .ashera-img{
-    height:20rem;
-    width:100%;
     background-image: url(./card-images/ashera-background-img.jpg);
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .savannah-img{
-    height:20rem;
-    width:100%;
     background-image: url(./card-images/savannah-background-img.jpg);
-    background-size: 83%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .sphynx-img{
-    height:20rem;
-    width:100%;
     background-image: url(./card-images/sphynx-background-img.jpg);
-    background-size: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .persian-img{
-    height:20rem;
-    width:100%;
     background-image: url(./card-images/persian-background-img.jpg);
-    background-size: 112%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .footer-container{
